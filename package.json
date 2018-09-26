@@ -1,0 +1,40 @@
+{
+  "name": "mqttr-cli",
+  "version": "1.0.0",
+  "description": "mqttr command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taoyuan/mqttr-cli.git"
+  },
+  "keywords": [
+    "mqtt",
+    "mqttr",
+    "cli"
+  ],
+  "author": "Yuan Tao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taoyuan/mqttr-cli/issues"
+  },
+  "bin": {
+    "mqttr": "bin/mqttr.js",
+    "mqttr_pub": "bin/pub.js",
+    "mqttr-pub": "bin/pub.js",
+    "mqttr_sub": "bin/sub.js",
+    "mqttr-sub": "bin/sub.js",
+    "mqttrp": "bin/pub.js",
+    "mqttrs": "bin/sub.js"
+  },
+  "homepage": "https://github.com/taoyuan/mqttr-cli#readme",
+  "dependencies": {
+    "commist": "^1.0.0",
+    "concat-stream": "^1.6.2",
+    "help-me": "^1.1.0",
+    "minimist": "^1.2.0",
+    "mqttr": "^2.0.0"
+  }
+}
