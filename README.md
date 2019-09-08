@@ -1,5 +1,7 @@
 # mqttr-cli
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/mqttr-cli.svg)](https://greenkeeper.io/)
+
 > [mqttr](https://github.com/taoyuan/mqttr) command line tool.
 
 ## mqttr
